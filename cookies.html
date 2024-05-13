@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Tracker</title>
+    <link rel="stylesheet" href="cookies.css">
+</head>
+<body>  
+    <h3>Cookies Count</h3>
+    <div>Total cookies: <span id="totalCookies">0</span></div>
+    <div class="container">
+      <div class="column">
+        <div class="cookie-count">First-party cookies: <span id="firstPartyCookies">0</span></div>
+        <div class="cookie-count">Third-party cookies: <span id="thirdPartyCookies">0</span></div>
+      </div>
+      <div class="column">
+        <div class="cookie-count">Session cookies: <span id="sessionCookies">0</span></div>
+        <div class="cookie-count">Persistent cookies: <span id="persistentCookies">0</span></div>
+      </div>
+    </div>
+    <hr>
+  </body>
+  <script src="popup.js"></script>
+</html>
